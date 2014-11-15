@@ -1,4 +1,4 @@
 Swift-Speed
 ===========
 
-Swift Data structures and operators speed sest
+Swift Data structures and operators speed test
