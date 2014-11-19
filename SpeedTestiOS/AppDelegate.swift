@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SpeedTest
+//  SpeedTestiOS
 //
-//  Created by Konstantin Koval on 11/11/14.
+//  Created by Konstantin Koval on 18/11/14.
 //  Copyright (c) 2014 konstanntn Koval. All rights reserved.
 //
 

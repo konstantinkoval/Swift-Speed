@@ -19,7 +19,10 @@ struct Numbers {
   
   func emptyCall() {
   }
-  
+}
+
+func + (x: Numbers, y: Numbers) -> Numbers {
+  return Numbers(x: x.x + y.x, y: x.y + y.y)
 }
 
 class NumbersClass {
@@ -33,5 +36,8 @@ class NumbersClass {
   
   func emptyCall() {
   }
-  
+}
+
+func + (x: NumbersClass, y: NumbersClass) -> NumbersClass {
+  return NumbersClass(x: x.x + y.x, y: x.y + y.y)
 }

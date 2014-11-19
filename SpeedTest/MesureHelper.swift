@@ -8,7 +8,6 @@
 
 import Foundation
 import QuartzCore
-//extern uint64_t dispatch_benchmark(size_t :count, void (^block)(void));
 
 var mesureNumber = 100000000
 func iterate(call: () -> Void ) {
@@ -17,21 +16,19 @@ func iterate(call: () -> Void ) {
   }
 }
 
-func mesure(title: String!, call: () -> Void) {
-  let startTime = CACurrentMediaTime()
-  call()
-  let endTime = CACurrentMediaTime()
-  if let title = title {
-    print("\(title): ")
-  }
-  println("Time - \(endTime - startTime)")
-}
+//func mesure(title: String!, call: () -> Void) {
+//  let startTime = CACurrentMediaTime()
+//  call()
+//  let endTime = CACurrentMediaTime()
+//  if let title = title {
+//    print("\(title): ")
+//  }
+//  println("Time - \(endTime - startTime)")
+//}
 
 func iterateAndMesure(title: String!, call: () -> Void ) {
   mesure(title) {
-    iterate() {
-      call()
-    }
+    iterate(call)
   }
 }
 

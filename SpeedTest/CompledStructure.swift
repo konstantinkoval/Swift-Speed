@@ -8,35 +8,29 @@
 
 import Foundation
 
-struct People {
+struct Person {
   
-  var name: String
-  var names: [String]
-  var namesMap: [String : String]
-  init (names: [String]) {
-    self.name = names.first!
-    self.names = names
-    self.namesMap = Dictionary
+  var firstName: String
+  var lastName: String
+  var phone: Int
+  
+  init (firstName: String, lastName: String, phone: Int) {
+    self.firstName = firstName
+    self.lastName = lastName
+    self.phone = phone
   }
 }
 
 
-class PeopleClass {
+class PersonClass {
   
-  var name: String
-  var names: [String]
-  var namesMap: [String : String]
-  var related: [PeopleClass]
-  var nums: [Int]
-  var doubles: [Double]
+  var firstName: String
+  var lastName: String
+  var phone: Int
   
-  init (name: String, names: [String], namesMap: [String : String], related: [PeopleClass], nums: [Int], doubles: [Double]) {
-    
-    self.name = name
-    self.names = names
-    self.namesMap = namesMap
-    self.related = related
-    self.nums = nums
-    self.doubles = doubles
+  init (firstName: String, lastName: String, phone: Int) {
+    self.firstName = firstName
+    self.lastName = lastName
+    self.phone = phone
   }
 }

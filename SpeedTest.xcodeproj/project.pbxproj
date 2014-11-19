@@ -7,47 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B58C39B71A120E1800AB0E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39B61A120E1800AB0E63 /* AppDelegate.swift */; };
-		B58C39B91A120E1800AB0E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39B81A120E1800AB0E63 /* ViewController.swift */; };
-		B58C39BC1A120E1800AB0E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C39BA1A120E1800AB0E63 /* Main.storyboard */; };
-		B58C39BE1A120E1800AB0E63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C39BD1A120E1800AB0E63 /* Images.xcassets */; };
-		B58C39C11A120E1800AB0E63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58C39BF1A120E1800AB0E63 /* LaunchScreen.xib */; };
+		B50D09B81A1BF11E0022100E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D09B71A1BF11E0022100E /* AppDelegate.swift */; };
+		B50D09BA1A1BF11E0022100E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D09B91A1BF11E0022100E /* ViewController.swift */; };
+		B50D09BD1A1BF11E0022100E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50D09BB1A1BF11E0022100E /* Main.storyboard */; };
+		B50D09BF1A1BF11E0022100E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50D09BE1A1BF11E0022100E /* Images.xcassets */; };
+		B50D09C21A1BF11E0022100E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50D09C01A1BF11E0022100E /* LaunchScreen.xib */; };
+		B50D09CE1A1BF11E0022100E /* SpeedTestiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D09CD1A1BF11E0022100E /* SpeedTestiOSTests.swift */; };
+		B50D09D51A1BF1320022100E /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
+		B50D09D61A1BF1320022100E /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
+		B50D09D81A1BF1360022100E /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */; };
+		B50D09D91A1BF1360022100E /* SimpleNumbersAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */; };
+		B50D09DA1A1BF1360022100E /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689631A17D54200A56BD7 /* ComplesMesure.swift */; };
+		B50D09DB1A1BF1360022100E /* OtherTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E31631A1BD51600E6E003 /* OtherTest1.swift */; };
+		B57E31531A1BD2B200E6E003 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E31521A1BD2B200E6E003 /* main.swift */; };
+		B57E31571A1BD30A00E6E003 /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
+		B57E31581A1BD30A00E6E003 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
+		B57E315C1A1BD30D00E6E003 /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
+		B57E315D1A1BD30D00E6E003 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
+		B57E315F1A1BD31200E6E003 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */; };
+		B57E31601A1BD31200E6E003 /* SimpleNumbersAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */; };
+		B57E31611A1BD31200E6E003 /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689631A17D54200A56BD7 /* ComplesMesure.swift */; };
+		B57E31641A1BD51600E6E003 /* OtherTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E31631A1BD51600E6E003 /* OtherTest1.swift */; };
 		B58C39D71A120E6300AB0E63 /* StructVsClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D61A120E6300AB0E63 /* StructVsClasses.swift */; };
-		B58C39DA1A120E9B00AB0E63 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
-		B58C39DB1A120F3100AB0E63 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
-		B58C39DD1A12127500AB0E63 /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
-		B58C39E11A12150700AB0E63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58C39E01A12150700AB0E63 /* QuartzCore.framework */; };
-		B5D6895F1A17D39900A56BD7 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */; };
-		B5D689611A17D43100A56BD7 /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
-		B5D689641A17D54200A56BD7 /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689631A17D54200A56BD7 /* ComplesMesure.swift */; };
-		B5D689661A17DECB00A56BD7 /* OtherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689651A17DECB00A56BD7 /* OtherTest.swift */; };
+		B5C1D2BA1A1D159600C6CF8B /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */; };
+		B5C1D2BB1A1D16D400C6CF8B /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
+		B5C1D2BC1A1D16D500C6CF8B /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
+		B5C1D2BD1A1D16D600C6CF8B /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
+		B5C1D2BE1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */; };
+		B5C1D2BF1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B58C39C71A120E1800AB0E63 /* PBXContainerItemProxy */ = {
+		B50D09C81A1BF11E0022100E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B58C39A91A120E1800AB0E63 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B58C39B01A120E1800AB0E63;
-			remoteInfo = SpeedTest;
+			remoteGlobalIDString = B50D09B21A1BF11E0022100E;
+			remoteInfo = SpeedTestiOS;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B57E314E1A1BD2B200E6E003 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B58C39B11A120E1800AB0E63 /* SpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B58C39B51A120E1800AB0E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B58C39B61A120E1800AB0E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B58C39B81A120E1800AB0E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B58C39BB1A120E1800AB0E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B58C39BD1A120E1800AB0E63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B58C39C01A120E1800AB0E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B50D09B31A1BF11E0022100E /* SpeedTestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTestiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D09B61A1BF11E0022100E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50D09B71A1BF11E0022100E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50D09B91A1BF11E0022100E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50D09BC1A1BF11E0022100E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50D09BE1A1BF11E0022100E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B50D09C11A1BF11E0022100E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B50D09C71A1BF11E0022100E /* SpeedTestiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D09CC1A1BF11E0022100E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50D09CD1A1BF11E0022100E /* SpeedTestiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestiOSTests.swift; sourceTree = "<group>"; };
+		B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNumbersAction.swift; sourceTree = "<group>"; };
+		B57E31501A1BD2B200E6E003 /* SpeedTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpeedTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57E31521A1BD2B200E6E003 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B57E31631A1BD51600E6E003 /* OtherTest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTest1.swift; sourceTree = "<group>"; };
 		B58C39C61A120E1800AB0E63 /* SpeedTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C39CB1A120E1800AB0E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58C39D61A120E6300AB0E63 /* StructVsClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructVsClasses.swift; sourceTree = "<group>"; };
 		B58C39D91A120E9B00AB0E63 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		B58C39DC1A12127500AB0E63 /* MesureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesureHelper.swift; sourceTree = "<group>"; };
-		B58C39DE1A12135A00AB0E63 /* libdispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdispatch.dylib; path = usr/lib/system/introspection/libdispatch.dylib; sourceTree = SDKROOT; };
 		B58C39E01A12150700AB0E63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedTest.swift; sourceTree = "<group>"; };
 		B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
 		B5D689601A17D43100A56BD7 /* CompledStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompledStructure.swift; sourceTree = "<group>"; };
 		B5D689631A17D54200A56BD7 /* ComplesMesure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplesMesure.swift; sourceTree = "<group>"; };
@@ -55,11 +88,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B58C39AE1A120E1800AB0E63 /* Frameworks */ = {
+		B50D09B01A1BF11E0022100E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58C39E11A12150700AB0E63 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D09C41A1BF11E0022100E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57E314D1A1BD2B200E6E003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,13 +119,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50D09B41A1BF11E0022100E /* SpeedTestiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B50D09B71A1BF11E0022100E /* AppDelegate.swift */,
+				B50D09B91A1BF11E0022100E /* ViewController.swift */,
+				B50D09BB1A1BF11E0022100E /* Main.storyboard */,
+				B50D09BE1A1BF11E0022100E /* Images.xcassets */,
+				B50D09C01A1BF11E0022100E /* LaunchScreen.xib */,
+				B50D09B51A1BF11E0022100E /* Supporting Files */,
+			);
+			path = SpeedTestiOS;
+			sourceTree = "<group>";
+		};
+		B50D09B51A1BF11E0022100E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50D09B61A1BF11E0022100E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B50D09CA1A1BF11E0022100E /* SpeedTestiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50D09CD1A1BF11E0022100E /* SpeedTestiOSTests.swift */,
+				B50D09CB1A1BF11E0022100E /* Supporting Files */,
+			);
+			path = SpeedTestiOSTests;
+			sourceTree = "<group>";
+		};
+		B50D09CB1A1BF11E0022100E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50D09CC1A1BF11E0022100E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B57E31511A1BD2B200E6E003 /* SpeedTest */ = {
+			isa = PBXGroup;
+			children = (
+				B57E31521A1BD2B200E6E003 /* main.swift */,
+			);
+			path = SpeedTest;
+			sourceTree = "<group>";
+		};
 		B58C39A81A120E1800AB0E63 = {
 			isa = PBXGroup;
 			children = (
+				B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */,
+				B58C39D81A120E6900AB0E63 /* Model */,
+				B5D689621A17D52F00A56BD7 /* Mesure */,
 				B58C39E01A12150700AB0E63 /* QuartzCore.framework */,
-				B58C39DE1A12135A00AB0E63 /* libdispatch.dylib */,
-				B58C39B31A120E1800AB0E63 /* SpeedTest */,
 				B58C39C91A120E1800AB0E63 /* SpeedTestTests */,
+				B57E31511A1BD2B200E6E003 /* SpeedTest */,
+				B50D09B41A1BF11E0022100E /* SpeedTestiOS */,
+				B50D09CA1A1BF11E0022100E /* SpeedTestiOSTests */,
 				B58C39B21A120E1800AB0E63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,33 +183,12 @@
 		B58C39B21A120E1800AB0E63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B58C39B11A120E1800AB0E63 /* SpeedTest.app */,
 				B58C39C61A120E1800AB0E63 /* SpeedTestTests.xctest */,
+				B57E31501A1BD2B200E6E003 /* SpeedTest */,
+				B50D09B31A1BF11E0022100E /* SpeedTestiOS.app */,
+				B50D09C71A1BF11E0022100E /* SpeedTestiOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B58C39B31A120E1800AB0E63 /* SpeedTest */ = {
-			isa = PBXGroup;
-			children = (
-				B58C39D81A120E6900AB0E63 /* Model */,
-				B58C39B61A120E1800AB0E63 /* AppDelegate.swift */,
-				B58C39B81A120E1800AB0E63 /* ViewController.swift */,
-				B5D689621A17D52F00A56BD7 /* Mesure */,
-				B58C39BA1A120E1800AB0E63 /* Main.storyboard */,
-				B58C39BD1A120E1800AB0E63 /* Images.xcassets */,
-				B58C39BF1A120E1800AB0E63 /* LaunchScreen.xib */,
-				B58C39B41A120E1800AB0E63 /* Supporting Files */,
-			);
-			path = SpeedTest;
-			sourceTree = "<group>";
-		};
-		B58C39B41A120E1800AB0E63 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B58C39B51A120E1800AB0E63 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B58C39C91A120E1800AB0E63 /* SpeedTestTests */ = {
@@ -141,28 +216,67 @@
 				B58C39DC1A12127500AB0E63 /* MesureHelper.swift */,
 			);
 			name = Model;
+			path = SpeedTest;
 			sourceTree = "<group>";
 		};
 		B5D689621A17D52F00A56BD7 /* Mesure */ = {
 			isa = PBXGroup;
 			children = (
 				B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */,
+				B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */,
 				B5D689631A17D54200A56BD7 /* ComplesMesure.swift */,
+				B57E31631A1BD51600E6E003 /* OtherTest1.swift */,
 				B5D689651A17DECB00A56BD7 /* OtherTest.swift */,
 			);
 			name = Mesure;
+			path = SpeedTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B58C39B01A120E1800AB0E63 /* SpeedTest */ = {
+		B50D09B21A1BF11E0022100E /* SpeedTestiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B58C39D01A120E1800AB0E63 /* Build configuration list for PBXNativeTarget "SpeedTest" */;
+			buildConfigurationList = B50D09D31A1BF11E0022100E /* Build configuration list for PBXNativeTarget "SpeedTestiOS" */;
 			buildPhases = (
-				B58C39AD1A120E1800AB0E63 /* Sources */,
-				B58C39AE1A120E1800AB0E63 /* Frameworks */,
-				B58C39AF1A120E1800AB0E63 /* Resources */,
+				B50D09AF1A1BF11E0022100E /* Sources */,
+				B50D09B01A1BF11E0022100E /* Frameworks */,
+				B50D09B11A1BF11E0022100E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTestiOS;
+			productName = SpeedTestiOS;
+			productReference = B50D09B31A1BF11E0022100E /* SpeedTestiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50D09C61A1BF11E0022100E /* SpeedTestiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50D09D41A1BF11E0022100E /* Build configuration list for PBXNativeTarget "SpeedTestiOSTests" */;
+			buildPhases = (
+				B50D09C31A1BF11E0022100E /* Sources */,
+				B50D09C41A1BF11E0022100E /* Frameworks */,
+				B50D09C51A1BF11E0022100E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50D09C91A1BF11E0022100E /* PBXTargetDependency */,
+			);
+			name = SpeedTestiOSTests;
+			productName = SpeedTestiOSTests;
+			productReference = B50D09C71A1BF11E0022100E /* SpeedTestiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B57E314F1A1BD2B200E6E003 /* SpeedTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57E31541A1BD2B200E6E003 /* Build configuration list for PBXNativeTarget "SpeedTest" */;
+			buildPhases = (
+				B57E314C1A1BD2B200E6E003 /* Sources */,
+				B57E314D1A1BD2B200E6E003 /* Frameworks */,
+				B57E314E1A1BD2B200E6E003 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -170,8 +284,8 @@
 			);
 			name = SpeedTest;
 			productName = SpeedTest;
-			productReference = B58C39B11A120E1800AB0E63 /* SpeedTest.app */;
-			productType = "com.apple.product-type.application";
+			productReference = B57E31501A1BD2B200E6E003 /* SpeedTest */;
+			productType = "com.apple.product-type.tool";
 		};
 		B58C39C51A120E1800AB0E63 /* SpeedTestTests */ = {
 			isa = PBXNativeTarget;
@@ -184,7 +298,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B58C39C81A120E1800AB0E63 /* PBXTargetDependency */,
 			);
 			name = SpeedTestTests;
 			productName = SpeedTestTests;
@@ -200,8 +313,15 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "konstanntn Koval";
 				TargetAttributes = {
-					B58C39B01A120E1800AB0E63 = {
-						CreatedOnToolsVersion = 6.1;
+					B50D09B21A1BF11E0022100E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B50D09C61A1BF11E0022100E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B50D09B21A1BF11E0022100E;
+					};
+					B57E314F1A1BD2B200E6E003 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 					B58C39C51A120E1800AB0E63 = {
 						CreatedOnToolsVersion = 6.1;
@@ -222,20 +342,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B58C39B01A120E1800AB0E63 /* SpeedTest */,
 				B58C39C51A120E1800AB0E63 /* SpeedTestTests */,
+				B57E314F1A1BD2B200E6E003 /* SpeedTest */,
+				B50D09B21A1BF11E0022100E /* SpeedTestiOS */,
+				B50D09C61A1BF11E0022100E /* SpeedTestiOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B58C39AF1A120E1800AB0E63 /* Resources */ = {
+		B50D09B11A1BF11E0022100E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58C39BC1A120E1800AB0E63 /* Main.storyboard in Resources */,
-				B58C39C11A120E1800AB0E63 /* LaunchScreen.xib in Resources */,
-				B58C39BE1A120E1800AB0E63 /* Images.xcassets in Resources */,
+				B50D09BD1A1BF11E0022100E /* Main.storyboard in Resources */,
+				B50D09C21A1BF11E0022100E /* LaunchScreen.xib in Resources */,
+				B50D09BF1A1BF11E0022100E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D09C51A1BF11E0022100E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +378,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B58C39AD1A120E1800AB0E63 /* Sources */ = {
+		B50D09AF1A1BF11E0022100E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D689641A17D54200A56BD7 /* ComplesMesure.swift in Sources */,
-				B5D6895F1A17D39900A56BD7 /* SimpleStructure.swift in Sources */,
-				B58C39B91A120E1800AB0E63 /* ViewController.swift in Sources */,
-				B5D689611A17D43100A56BD7 /* CompledStructure.swift in Sources */,
-				B5D689661A17DECB00A56BD7 /* OtherTest.swift in Sources */,
-				B58C39B71A120E1800AB0E63 /* AppDelegate.swift in Sources */,
-				B58C39DD1A12127500AB0E63 /* MesureHelper.swift in Sources */,
-				B58C39DA1A120E9B00AB0E63 /* Numbers.swift in Sources */,
+				B50D09D61A1BF1320022100E /* Numbers.swift in Sources */,
+				B50D09D81A1BF1360022100E /* SimpleStructure.swift in Sources */,
+				B50D09DA1A1BF1360022100E /* ComplesMesure.swift in Sources */,
+				B50D09BA1A1BF11E0022100E /* ViewController.swift in Sources */,
+				B50D09DB1A1BF1360022100E /* OtherTest1.swift in Sources */,
+				B5C1D2BC1A1D16D500C6CF8B /* MesureHelper.swift in Sources */,
+				B50D09B81A1BF11E0022100E /* AppDelegate.swift in Sources */,
+				B50D09D51A1BF1320022100E /* CompledStructure.swift in Sources */,
+				B50D09D91A1BF1360022100E /* SimpleNumbersAction.swift in Sources */,
+				B5C1D2BF1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D09C31A1BF11E0022100E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D09CE1A1BF11E0022100E /* SpeedTestiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57E314C1A1BD2B200E6E003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57E31611A1BD31200E6E003 /* ComplesMesure.swift in Sources */,
+				B57E31641A1BD51600E6E003 /* OtherTest1.swift in Sources */,
+				B5C1D2BE1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */,
+				B57E31601A1BD31200E6E003 /* SimpleNumbersAction.swift in Sources */,
+				B57E315F1A1BD31200E6E003 /* SimpleStructure.swift in Sources */,
+				B57E31571A1BD30A00E6E003 /* CompledStructure.swift in Sources */,
+				B57E31531A1BD2B200E6E003 /* main.swift in Sources */,
+				B5C1D2BB1A1D16D400C6CF8B /* MesureHelper.swift in Sources */,
+				B57E31581A1BD30A00E6E003 /* Numbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,34 +423,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57E315C1A1BD30D00E6E003 /* CompledStructure.swift in Sources */,
 				B58C39D71A120E6300AB0E63 /* StructVsClasses.swift in Sources */,
-				B58C39DB1A120F3100AB0E63 /* Numbers.swift in Sources */,
+				B57E315D1A1BD30D00E6E003 /* Numbers.swift in Sources */,
+				B5C1D2BA1A1D159600C6CF8B /* SpeedTest.swift in Sources */,
+				B5C1D2BD1A1D16D600C6CF8B /* MesureHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B58C39C81A120E1800AB0E63 /* PBXTargetDependency */ = {
+		B50D09C91A1BF11E0022100E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B58C39B01A120E1800AB0E63 /* SpeedTest */;
-			targetProxy = B58C39C71A120E1800AB0E63 /* PBXContainerItemProxy */;
+			target = B50D09B21A1BF11E0022100E /* SpeedTestiOS */;
+			targetProxy = B50D09C81A1BF11E0022100E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B58C39BA1A120E1800AB0E63 /* Main.storyboard */ = {
+		B50D09BB1A1BF11E0022100E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B58C39BB1A120E1800AB0E63 /* Base */,
+				B50D09BC1A1BF11E0022100E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B58C39BF1A120E1800AB0E63 /* LaunchScreen.xib */ = {
+		B50D09C01A1BF11E0022100E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B58C39C01A120E1800AB0E63 /* Base */,
+				B50D09C11A1BF11E0022100E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -303,6 +461,87 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B50D09CF1A1BF11E0022100E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedTestiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B50D09D01A1BF11E0022100E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedTestiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B50D09D11A1BF11E0022100E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedTestiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTestiOS.app/SpeedTestiOS";
+			};
+			name = Debug;
+		};
+		B50D09D21A1BF11E0022100E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedTestiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTestiOS.app/SpeedTestiOS";
+			};
+			name = Release;
+		};
+		B57E31551A1BD2B200E6E003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B57E31561A1BD2B200E6E003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		B58C39CE1A120E1800AB0E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,34 +621,6 @@
 			};
 			name = Release;
 		};
-		B58C39D11A120E1800AB0E63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SpeedTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/lib/system/introspection",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		B58C39D21A120E1800AB0E63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SpeedTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/lib/system/introspection",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		B58C39D41A120E1800AB0E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -447,20 +658,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B50D09D31A1BF11E0022100E /* Build configuration list for PBXNativeTarget "SpeedTestiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D09CF1A1BF11E0022100E /* Debug */,
+				B50D09D01A1BF11E0022100E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50D09D41A1BF11E0022100E /* Build configuration list for PBXNativeTarget "SpeedTestiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D09D11A1BF11E0022100E /* Debug */,
+				B50D09D21A1BF11E0022100E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57E31541A1BD2B200E6E003 /* Build configuration list for PBXNativeTarget "SpeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57E31551A1BD2B200E6E003 /* Debug */,
+				B57E31561A1BD2B200E6E003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B58C39AC1A120E1800AB0E63 /* Build configuration list for PBXProject "SpeedTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B58C39CE1A120E1800AB0E63 /* Debug */,
 				B58C39CF1A120E1800AB0E63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B58C39D01A120E1800AB0E63 /* Build configuration list for PBXNativeTarget "SpeedTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B58C39D11A120E1800AB0E63 /* Debug */,
-				B58C39D21A120E1800AB0E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
