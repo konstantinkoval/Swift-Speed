@@ -13,28 +13,31 @@
 		B50D09BF1A1BF11E0022100E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50D09BE1A1BF11E0022100E /* Images.xcassets */; };
 		B50D09C21A1BF11E0022100E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50D09C01A1BF11E0022100E /* LaunchScreen.xib */; };
 		B50D09CE1A1BF11E0022100E /* SpeedTestiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D09CD1A1BF11E0022100E /* SpeedTestiOSTests.swift */; };
-		B50D09D51A1BF1320022100E /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
-		B50D09D61A1BF1320022100E /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
-		B50D09D81A1BF1360022100E /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */; };
-		B50D09D91A1BF1360022100E /* SimpleNumbersAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */; };
-		B50D09DA1A1BF1360022100E /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689631A17D54200A56BD7 /* ComplesMesure.swift */; };
-		B50D09DB1A1BF1360022100E /* OtherTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E31631A1BD51600E6E003 /* OtherTest1.swift */; };
+		B53E0F5A1A1FE5E20076448C /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F571A1FE5E20076448C /* CompledStructure.swift */; };
+		B53E0F5B1A1FE5E20076448C /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F571A1FE5E20076448C /* CompledStructure.swift */; };
+		B53E0F5C1A1FE5E20076448C /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F571A1FE5E20076448C /* CompledStructure.swift */; };
+		B53E0F5D1A1FE5E20076448C /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F581A1FE5E20076448C /* MesureHelper.swift */; };
+		B53E0F5E1A1FE5E20076448C /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F581A1FE5E20076448C /* MesureHelper.swift */; };
+		B53E0F5F1A1FE5E20076448C /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F581A1FE5E20076448C /* MesureHelper.swift */; };
+		B53E0F601A1FE5E20076448C /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F591A1FE5E20076448C /* Numbers.swift */; };
+		B53E0F611A1FE5E20076448C /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F591A1FE5E20076448C /* Numbers.swift */; };
+		B53E0F621A1FE5E20076448C /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F591A1FE5E20076448C /* Numbers.swift */; };
+		B53E0F671A1FE5FB0076448C /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F641A1FE5FB0076448C /* SpeedTest.swift */; };
+		B53E0F681A1FE5FB0076448C /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F641A1FE5FB0076448C /* SpeedTest.swift */; };
+		B53E0F691A1FE5FB0076448C /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F661A1FE5FB0076448C /* Assembly.swift */; };
+		B53E0F6A1A1FE5FB0076448C /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F661A1FE5FB0076448C /* Assembly.swift */; };
+		B53E0F711A1FE6390076448C /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6C1A1FE6390076448C /* ComplesMesure.swift */; };
+		B53E0F721A1FE6390076448C /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6C1A1FE6390076448C /* ComplesMesure.swift */; };
+		B53E0F731A1FE6390076448C /* OtherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6D1A1FE6390076448C /* OtherTest.swift */; };
+		B53E0F741A1FE6390076448C /* OtherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6D1A1FE6390076448C /* OtherTest.swift */; };
+		B53E0F751A1FE6390076448C /* OtherTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6E1A1FE6390076448C /* OtherTest1.swift */; };
+		B53E0F761A1FE6390076448C /* OtherTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6E1A1FE6390076448C /* OtherTest1.swift */; };
+		B53E0F771A1FE6390076448C /* SimpleNumbersAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6F1A1FE6390076448C /* SimpleNumbersAction.swift */; };
+		B53E0F781A1FE6390076448C /* SimpleNumbersAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F6F1A1FE6390076448C /* SimpleNumbersAction.swift */; };
+		B53E0F791A1FE6390076448C /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F701A1FE6390076448C /* SimpleStructure.swift */; };
+		B53E0F7A1A1FE6390076448C /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E0F701A1FE6390076448C /* SimpleStructure.swift */; };
 		B57E31531A1BD2B200E6E003 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E31521A1BD2B200E6E003 /* main.swift */; };
-		B57E31571A1BD30A00E6E003 /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
-		B57E31581A1BD30A00E6E003 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
-		B57E315C1A1BD30D00E6E003 /* CompledStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689601A17D43100A56BD7 /* CompledStructure.swift */; };
-		B57E315D1A1BD30D00E6E003 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D91A120E9B00AB0E63 /* Numbers.swift */; };
-		B57E315F1A1BD31200E6E003 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */; };
-		B57E31601A1BD31200E6E003 /* SimpleNumbersAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */; };
-		B57E31611A1BD31200E6E003 /* ComplesMesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D689631A17D54200A56BD7 /* ComplesMesure.swift */; };
-		B57E31641A1BD51600E6E003 /* OtherTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E31631A1BD51600E6E003 /* OtherTest1.swift */; };
 		B58C39D71A120E6300AB0E63 /* StructVsClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39D61A120E6300AB0E63 /* StructVsClasses.swift */; };
-		B5C1D2BA1A1D159600C6CF8B /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */; };
-		B5C1D2BB1A1D16D400C6CF8B /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
-		B5C1D2BC1A1D16D500C6CF8B /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
-		B5C1D2BD1A1D16D600C6CF8B /* MesureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39DC1A12127500AB0E63 /* MesureHelper.swift */; };
-		B5C1D2BE1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */; };
-		B5C1D2BF1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,21 +73,22 @@
 		B50D09C71A1BF11E0022100E /* SpeedTestiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50D09CC1A1BF11E0022100E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B50D09CD1A1BF11E0022100E /* SpeedTestiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestiOSTests.swift; sourceTree = "<group>"; };
-		B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNumbersAction.swift; sourceTree = "<group>"; };
+		B53E0F571A1FE5E20076448C /* CompledStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompledStructure.swift; sourceTree = "<group>"; };
+		B53E0F581A1FE5E20076448C /* MesureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesureHelper.swift; sourceTree = "<group>"; };
+		B53E0F591A1FE5E20076448C /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		B53E0F641A1FE5FB0076448C /* SpeedTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedTest.swift; sourceTree = "<group>"; };
+		B53E0F661A1FE5FB0076448C /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		B53E0F6C1A1FE6390076448C /* ComplesMesure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplesMesure.swift; sourceTree = "<group>"; };
+		B53E0F6D1A1FE6390076448C /* OtherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTest.swift; sourceTree = "<group>"; };
+		B53E0F6E1A1FE6390076448C /* OtherTest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTest1.swift; sourceTree = "<group>"; };
+		B53E0F6F1A1FE6390076448C /* SimpleNumbersAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNumbersAction.swift; sourceTree = "<group>"; };
+		B53E0F701A1FE6390076448C /* SimpleStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
 		B57E31501A1BD2B200E6E003 /* SpeedTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpeedTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57E31521A1BD2B200E6E003 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B57E31631A1BD51600E6E003 /* OtherTest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTest1.swift; sourceTree = "<group>"; };
 		B58C39C61A120E1800AB0E63 /* SpeedTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C39CB1A120E1800AB0E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58C39D61A120E6300AB0E63 /* StructVsClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructVsClasses.swift; sourceTree = "<group>"; };
-		B58C39D91A120E9B00AB0E63 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
-		B58C39DC1A12127500AB0E63 /* MesureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesureHelper.swift; sourceTree = "<group>"; };
 		B58C39E01A12150700AB0E63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedTest.swift; sourceTree = "<group>"; };
-		B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
-		B5D689601A17D43100A56BD7 /* CompledStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompledStructure.swift; sourceTree = "<group>"; };
-		B5D689631A17D54200A56BD7 /* ComplesMesure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplesMesure.swift; sourceTree = "<group>"; };
-		B5D689651A17DECB00A56BD7 /* OtherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B53E0F561A1FE5E20076448C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B53E0F571A1FE5E20076448C /* CompledStructure.swift */,
+				B53E0F581A1FE5E20076448C /* MesureHelper.swift */,
+				B53E0F591A1FE5E20076448C /* Numbers.swift */,
+			);
+			name = Model;
+			path = SpeedTest/Model;
+			sourceTree = "<group>";
+		};
+		B53E0F631A1FE5FB0076448C /* Part 1 - Measure */ = {
+			isa = PBXGroup;
+			children = (
+				B53E0F641A1FE5FB0076448C /* SpeedTest.swift */,
+			);
+			name = "Part 1 - Measure";
+			path = "SpeedTest/Part 1 - Measure";
+			sourceTree = "<group>";
+		};
+		B53E0F651A1FE5FB0076448C /* Part 2 - Assemly */ = {
+			isa = PBXGroup;
+			children = (
+				B53E0F661A1FE5FB0076448C /* Assembly.swift */,
+			);
+			name = "Part 2 - Assemly";
+			path = "SpeedTest/Part 2 - Assemly";
+			sourceTree = "<group>";
+		};
+		B53E0F6B1A1FE6390076448C /* Measure */ = {
+			isa = PBXGroup;
+			children = (
+				B53E0F6C1A1FE6390076448C /* ComplesMesure.swift */,
+				B53E0F6D1A1FE6390076448C /* OtherTest.swift */,
+				B53E0F6E1A1FE6390076448C /* OtherTest1.swift */,
+				B53E0F6F1A1FE6390076448C /* SimpleNumbersAction.swift */,
+				B53E0F701A1FE6390076448C /* SimpleStructure.swift */,
+			);
+			name = Measure;
+			path = SpeedTest/Measure;
+			sourceTree = "<group>";
+		};
 		B57E31511A1BD2B200E6E003 /* SpeedTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,15 +214,16 @@
 		B58C39A81A120E1800AB0E63 = {
 			isa = PBXGroup;
 			children = (
-				B5C1D2B91A1D159600C6CF8B /* SpeedTest.swift */,
-				B58C39D81A120E6900AB0E63 /* Model */,
-				B5D689621A17D52F00A56BD7 /* Mesure */,
-				B58C39E01A12150700AB0E63 /* QuartzCore.framework */,
+				B53E0F631A1FE5FB0076448C /* Part 1 - Measure */,
+				B53E0F651A1FE5FB0076448C /* Part 2 - Assemly */,
+				B53E0F561A1FE5E20076448C /* Model */,
+				B53E0F6B1A1FE6390076448C /* Measure */,
 				B58C39C91A120E1800AB0E63 /* SpeedTestTests */,
 				B57E31511A1BD2B200E6E003 /* SpeedTest */,
 				B50D09B41A1BF11E0022100E /* SpeedTestiOS */,
 				B50D09CA1A1BF11E0022100E /* SpeedTestiOSTests */,
 				B58C39B21A120E1800AB0E63 /* Products */,
+				B58C39E01A12150700AB0E63 /* QuartzCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,30 +253,6 @@
 				B58C39CB1A120E1800AB0E63 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B58C39D81A120E6900AB0E63 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B5D689601A17D43100A56BD7 /* CompledStructure.swift */,
-				B58C39D91A120E9B00AB0E63 /* Numbers.swift */,
-				B58C39DC1A12127500AB0E63 /* MesureHelper.swift */,
-			);
-			name = Model;
-			path = SpeedTest;
-			sourceTree = "<group>";
-		};
-		B5D689621A17D52F00A56BD7 /* Mesure */ = {
-			isa = PBXGroup;
-			children = (
-				B5D6895E1A17D39900A56BD7 /* SimpleStructure.swift */,
-				B51557051A1923CC00946AA2 /* SimpleNumbersAction.swift */,
-				B5D689631A17D54200A56BD7 /* ComplesMesure.swift */,
-				B57E31631A1BD51600E6E003 /* OtherTest1.swift */,
-				B5D689651A17DECB00A56BD7 /* OtherTest.swift */,
-			);
-			name = Mesure;
-			path = SpeedTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,16 +405,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50D09D61A1BF1320022100E /* Numbers.swift in Sources */,
-				B50D09D81A1BF1360022100E /* SimpleStructure.swift in Sources */,
-				B50D09DA1A1BF1360022100E /* ComplesMesure.swift in Sources */,
+				B53E0F6A1A1FE5FB0076448C /* Assembly.swift in Sources */,
 				B50D09BA1A1BF11E0022100E /* ViewController.swift in Sources */,
-				B50D09DB1A1BF1360022100E /* OtherTest1.swift in Sources */,
-				B5C1D2BC1A1D16D500C6CF8B /* MesureHelper.swift in Sources */,
+				B53E0F761A1FE6390076448C /* OtherTest1.swift in Sources */,
+				B53E0F781A1FE6390076448C /* SimpleNumbersAction.swift in Sources */,
+				B53E0F721A1FE6390076448C /* ComplesMesure.swift in Sources */,
+				B53E0F5C1A1FE5E20076448C /* CompledStructure.swift in Sources */,
 				B50D09B81A1BF11E0022100E /* AppDelegate.swift in Sources */,
-				B50D09D51A1BF1320022100E /* CompledStructure.swift in Sources */,
-				B50D09D91A1BF1360022100E /* SimpleNumbersAction.swift in Sources */,
-				B5C1D2BF1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */,
+				B53E0F7A1A1FE6390076448C /* SimpleStructure.swift in Sources */,
+				B53E0F741A1FE6390076448C /* OtherTest.swift in Sources */,
+				B53E0F5F1A1FE5E20076448C /* MesureHelper.swift in Sources */,
+				B53E0F621A1FE5E20076448C /* Numbers.swift in Sources */,
+				B53E0F681A1FE5FB0076448C /* SpeedTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,15 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57E31611A1BD31200E6E003 /* ComplesMesure.swift in Sources */,
-				B57E31641A1BD51600E6E003 /* OtherTest1.swift in Sources */,
-				B5C1D2BE1A1D16FA00C6CF8B /* SpeedTest.swift in Sources */,
-				B57E31601A1BD31200E6E003 /* SimpleNumbersAction.swift in Sources */,
-				B57E315F1A1BD31200E6E003 /* SimpleStructure.swift in Sources */,
-				B57E31571A1BD30A00E6E003 /* CompledStructure.swift in Sources */,
+				B53E0F5B1A1FE5E20076448C /* CompledStructure.swift in Sources */,
+				B53E0F611A1FE5E20076448C /* Numbers.swift in Sources */,
 				B57E31531A1BD2B200E6E003 /* main.swift in Sources */,
-				B5C1D2BB1A1D16D400C6CF8B /* MesureHelper.swift in Sources */,
-				B57E31581A1BD30A00E6E003 /* Numbers.swift in Sources */,
+				B53E0F5E1A1FE5E20076448C /* MesureHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,11 +443,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57E315C1A1BD30D00E6E003 /* CompledStructure.swift in Sources */,
+				B53E0F771A1FE6390076448C /* SimpleNumbersAction.swift in Sources */,
+				B53E0F711A1FE6390076448C /* ComplesMesure.swift in Sources */,
+				B53E0F601A1FE5E20076448C /* Numbers.swift in Sources */,
+				B53E0F791A1FE6390076448C /* SimpleStructure.swift in Sources */,
+				B53E0F691A1FE5FB0076448C /* Assembly.swift in Sources */,
+				B53E0F5A1A1FE5E20076448C /* CompledStructure.swift in Sources */,
+				B53E0F751A1FE6390076448C /* OtherTest1.swift in Sources */,
+				B53E0F731A1FE6390076448C /* OtherTest.swift in Sources */,
 				B58C39D71A120E6300AB0E63 /* StructVsClasses.swift in Sources */,
-				B57E315D1A1BD30D00E6E003 /* Numbers.swift in Sources */,
-				B5C1D2BA1A1D159600C6CF8B /* SpeedTest.swift in Sources */,
-				B5C1D2BD1A1D16D600C6CF8B /* MesureHelper.swift in Sources */,
+				B53E0F5D1A1FE5E20076448C /* MesureHelper.swift in Sources */,
+				B53E0F671A1FE5FB0076448C /* SpeedTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

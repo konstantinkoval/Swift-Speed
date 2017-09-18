@@ -16,18 +16,19 @@ func iterate(call: () -> Void ) {
   }
 }
 
-//func mesure(title: String!, call: () -> Void) {
-//  let startTime = CACurrentMediaTime()
-//  call()
-//  let endTime = CACurrentMediaTime()
-//  if let title = title {
-//    print("\(title): ")
-//  }
-//  println("Time - \(endTime - startTime)")
-//}
+func measure(title: String!, call: () -> Void) {
+  let startTime = CACurrentMediaTime()
+  call()
+  let endTime = CACurrentMediaTime()
+  if let title = title {
+    print("\(title): ")
+  }
+  println("Time - \(endTime - startTime)")
+}
+
 
 func iterateAndMesure(title: String!, call: () -> Void ) {
-  mesure(title) {
+  measure(title) {
     iterate(call)
   }
 }

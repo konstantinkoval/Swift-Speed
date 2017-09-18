@@ -9,33 +9,22 @@
 import Foundation
 import QuartzCore
 import UIKit
-
-func mesure(title: String!, call: () -> Void) {
-  let startTime = CACurrentMediaTime()
-  call()
-  let endTime = CACurrentMediaTime()
-  if let title = title {
-    print("\(title): ")
-  }
-  println("Time - \(endTime - startTime)")
-}
+import 
 
 // User example
 
 func doSomeWork() {
-  
-  mesure("Array") {
+
+  measure("Array") {
     for i in 0...10000 {
       var ar = [String]()
       ar.append("New elem \(i)")
     }
   }
   
-  mesure("Image") {
-
+  measure("Image") {
     let url = NSURL(string: "http://lorempixel.com/1920/1920/")
-    let data = NSData(contentsOfURL:url!)
-    let image = UIImage(data:data!)
+    let image = UIImage(data:NSData(contentsOfURL:url!)!)
   }
   
 }

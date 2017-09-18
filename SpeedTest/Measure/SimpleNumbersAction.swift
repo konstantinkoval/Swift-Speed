@@ -30,7 +30,7 @@ func testAddition() {
 
   println("mesure numbers")
   var x0 = Numbers(x: 0, y: 0)
-  mesure(nil) {
+  measure(nil) {
     for i in 1...mesureNumber {
       x0 = x0 + Numbers(x: 1, y: 1)
     }
